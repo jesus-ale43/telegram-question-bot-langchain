@@ -1,0 +1,29 @@
+{
+  "name": "telegram-chatbot",
+  "description": "Telegram chatbot with the OpenIA api.",
+  "author": {
+    "name": "Jesús Alejandro (Jesus_ale43)",
+    "url": "https://github.com/jesus-ale43"
+  },
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "dev": "nodemon ./src/index.js",
+    "run": "x"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesus-ale43/telegram-chatbot"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
