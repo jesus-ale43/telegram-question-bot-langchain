@@ -19,7 +19,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "openai": "^3.2.1"
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
   },
   "devDependencies": {
     "eslint": "^8.37.0",
