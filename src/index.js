@@ -1,5 +1,5 @@
-import { Telegraf } from "telegraf";
+import { Telegraf } from 'telegraf';
 
-const client = new Telegraf(process.env.TOKEN)
+const client = new Telegraf(process.env.TOKEN);
 
-bot.start((ctx) => ctx.reply('Welcome'));
+client.start((ctx) => ctx.reply('Welcome'));
