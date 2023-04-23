@@ -3,6 +3,9 @@
   "description": "Telegram and LangChain question bot for large PDF documents.",
   "version": "0.5.4",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "author": {
     "name": "Jesús Alejandro (Jesus_ale43)",
     "url": "https://github.com/jesus-ale43"
